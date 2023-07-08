@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+declare const myTest: any;
+
 // decorator component
 @Component({
   selector: 'app-root',
@@ -7,7 +9,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular app';
-  date = Date.now()
+  title = 'angular tutorial';
+  // date = Date.now()
+
+  onClick() {
+    myTest();
+  }
 }
 
