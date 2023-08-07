@@ -1,5 +1,5 @@
 function myTest() {
-  alert("Welcome to custome js")
+  alert("Welcome to custome js");
 }
 //
 // $(function() {
