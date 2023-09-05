@@ -9,7 +9,7 @@ declare const myTest: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular tutorial';
+  title = 'My angular tutorial';
   // date = Date.now()
 
   onClick() {
